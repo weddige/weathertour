@@ -1,6 +1,8 @@
 import math
 
+
 RADIUS = 6371
+
 
 def haversine(lat1, lon1, lat2, lon2):
     dlat = math.radians(lat2) - math.radians(lat1)
